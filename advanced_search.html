@@ -1,0 +1,55 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            #search_bar {
+                width: 500px;
+                height: 30px;
+                font-size: 20px;
+                text-align: center;
+            }
+            #button {
+                height: 36px;
+                font-size: 20px;
+                align-items: left;
+                margin-top: 10px;
+                background-color: aqua;
+            }
+
+            form {
+                text-align: left;
+                margin-top: 20%;
+            }
+        </style>>
+    </head>
+    <body>
+        <a href="image_search.html">Image Search</a>
+        <a href="index.html">Google Search</a>
+        <form action="https://www.google.com/search">
+            <div id="container">
+                <div>
+                all these words:
+                <input id="search_bar" type="text" name="as_q" placeholder="">
+                </div>
+                <div>
+                this exact word or phrase:
+                <input id="search_bar" type="text" name="as_epq" placeholder="">
+                </div>
+                <div>
+                any of these words:
+                <input id="search_bar" type="text" name="as_oq" placeholder="">
+                </div>
+                <div>
+                none of these words:
+                <input id="search_bar" type="text" name="as_eq" placeholder="">
+                </div>
+                <div>
+                    <input id="button" type="submit" value="Advanced Search">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

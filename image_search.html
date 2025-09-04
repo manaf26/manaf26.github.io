@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            #search_bar {
+                width: 500px;
+                height: 30px;
+                font-size: 20px;
+                text-align: center;
+            }
+            #button {
+                height: 36px;
+                font-size: 20px;
+                align-items: center;
+            }
+
+            form {
+                text-align: center;
+                margin-top: 20%;
+            }
+        </style>>
+    </head>
+    <body>
+        <a href="index.html">Google Search</a>
+        <a href="advanced_search.html">Advanced Search</a>
+        <form action="https://www.google.com/search">
+            <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Google_Images_2015_logo.svg" alt="Google Images Logo" width="200">
+            </div>
+            <div>
+            <input id="search_bar" type="text" name="q" placeholder="Search Google Images">
+            </div>
+            <div>
+            <input type="hidden" name="tbm" value="isch">
+            <input id="button" type="submit" value="Image Search">
+            </div>
+        </form>
+    </body>
+</html>
